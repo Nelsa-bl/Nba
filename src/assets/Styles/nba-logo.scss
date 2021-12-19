@@ -1,0 +1,255 @@
+
+.team-logo {
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &-Hawks {
+        background-image: url(../nba-logos/Atlanta_Hawks/nba-atlanta-hawks-logo.png);
+    }
+    &-Celtics {
+        background-image: url(../nba-logos/Boston_Celtics/nba-boston-celtics-logo.png);
+    }
+    &-Nets {
+        background-image: url(../nba-logos/Brooklyn_Nets/nba-brooklyn-nets-logo.png);
+    }
+    &-Hornets {
+        background-image: url(../nba-logos/Charlotte_Hornets/nba-charlotte-hornets-logo.png);
+    }
+    &-Bulls {
+        background-image: url(../nba-logos/Chicago_Bulls/nba-chicago-bulls-logo.png);
+    }
+    &-Cavaliers {
+        background-image: url(../nba-logos/Cleveland_Cavaliers/cleveland-cavaliers-logo-symbol.png);
+    }
+    &-Mavericks {
+        background-image: url(../nba-logos/Dallas_Mavericks/dallas-mavericks-logo-symbol.png);
+    }
+    &-Nuggets {
+        background-image: url(../nba-logos/Denver_Nuggets/nba-denver-nuggets-logo-2018.png);
+    }
+    &-Pistons {
+        background-image: url(../nba-logos/Detroit_Pistons/nba-detroit-pistons-logo.png);
+    }
+    &-Warriors {
+        background-image: url(../nba-logos/Golden_State_Warriors/nba-golden-state-warriors-logo-2020.png);
+    }
+    &-Rockets {
+        background-image: url(../nba-logos/Houston_Rockets/houston-rockets-logo-symbol.png);
+    }
+    &-Pacers {
+        background-image: url(../nba-logos/Indiana_Pacers/indiana-pacers-logo-symbol.png);
+    }
+    &-Clippers {
+        background-image: url(../nba-logos/Los_Angeles_Clippers/los-angeles-clippers-logo-symbol.png);
+    }
+    &-Lakers {
+        background-image: url(../nba-logos/Los_Angeles_Lakers/nba-los-angeles-lakers-logo.png);
+    }
+    &-Grizzlies {
+        background-image: url(../nba-logos/Memphis_Grizzlies/nba-memphis-grizzlies-logo.png);
+    }
+    &-Heat {
+        background-image: url(../nba-logos/Miami_Heat/miami-heat-logo-symbol.png);
+    }
+    &-Bucks {
+        background-image: url(../nba-logos/Milwaukee_Bucks/milwaukee-bucks-logo-symbol.png);
+    }
+    &-Timberwolves {
+        background-image: url(../nba-logos/Minnesota_Timberwolves/nba-minnesota-timberwolves-logo.png);
+    }
+    &-Pelicans {
+        background-image: url(../nba-logos/New_Orleans_Pelicans/new-orleans-pelicans-logo-symbol.png);
+    }
+    &-Knicks {
+        background-image: url(../nba-logos/New_York_Knicks/nba-new-york-knicks-logo.png);
+    }
+    &-Thunder {
+        background-image: url(../nba-logos/Oklahoma_City_Thunder/oklahoma-city-thunder-logo-symbol.png);
+    }
+    &-Magic {
+        background-image: url(../nba-logos/Orlando_Magic/orlando-magic-logo-symbol.png);
+    }
+    &-76ers {
+        background-image: url(../nba-logos/Philadelphia_76ers/nba-philadelphia-76ers-logo.png);
+    }
+    &-Suns {
+        background-image: url(../nba-logos/Phoenix_Suns/phoenix-suns-logo-symbol.png);
+    }
+    &-Trail {
+        background-image: url(../nba-logos/Portland_Trail_Blazers/portland-trail-blazers-logo-symbol.png);
+    }
+    &-Kings {
+        background-image: url(../nba-logos/Sacramento_Kings/nba-sacramento-kings-logo.png);
+    }
+    &-Spurs {
+        background-image: url(../nba-logos/San_Antonio_Spurs/san-antonio-spurs-logo-symbol.png);
+    }
+    &-Raptors {
+        background-image: url(../nba-logos/Toronto_Raptors/nba-toronto-raptors-logo-2020.png);
+    }
+    &-Jazz {
+        background-image: url(../nba-logos/Utah_Jazz/nba-utah-jazz-logo.png);
+    }
+    &-Wizards {
+        background-image: url(../nba-logos/Washington_Wizards/washington-wizards-logo-symbol.png);
+    }
+
+}
+
+
+.team-color {
+
+    &-Hawks {
+        &:before {
+            background-color: rgba(200,16,46,0.75);
+        }
+    }
+    &-Celtics {
+        &:before {
+            background-color: rgba(0,121,51,0.75);
+        }
+    }
+    &-Nets {
+        &:before {
+            background-color: rgba(198,207,212,0.75);
+        }
+    }
+    &-Hornets {
+        &:before {
+            background-color: rgba(0, 120, 140,0.75);
+        }
+    }
+    &-Bulls {
+        &:before {
+            background-color: rgba(206, 17, 65,0.75);
+        }
+    }
+    &-Cavaliers {
+        &:before {
+            background-color: rgba(134, 0, 56,0.75);
+        }
+    }
+    &-Mavericks {
+        &:before {
+            background-color: rgba(0, 83, 188,0.75);
+        }
+    }
+    &-Nuggets {
+        &:before {
+            background-color: rgba(13, 34, 64,0.75);
+        }
+    }
+    &-Pistons {
+        &:before {
+            background-color: rgba(29,66,138,0.75);
+        }
+    }
+    &-Warriors {
+        &:before {
+            background-color: rgba(255, 199, 44,0.75);
+        }
+    }
+    &-Rockets {
+        &:before {
+            background-color: rgba(6,25,34,0.75);
+        }
+    }
+    &-Pacers {
+        &:before {
+            background-color: rgba(253, 187, 48,0.75);
+        }
+    }
+    &-Clippers {
+        &:before {
+            background-color: rgba(190,192,194,0.75);
+        }
+    }
+    &-Lakers {
+        &:before {
+            background-color: rgba(85, 37, 130,0.75);
+        }
+    }
+    &-Grizzlies {
+        &:before {
+            background-color: rgba(93, 118, 169,0.75);
+        }
+    }
+    &-Heat {
+        &:before {
+            background-color: rgba(152, 0, 46,0.75);
+        }
+    }
+    &-Bucks {
+        &:before {
+            background-color: rgba(0, 71, 27,0.75);
+        }
+    }
+    &-Timberwolves {
+        &:before {
+            background-color: rgba(35, 97, 146,0.75);
+        }
+    }
+    &-Pelicans {
+        &:before {
+            background-color: rgba(0, 22, 65,0.75);
+        }
+    }
+    &-Knicks {
+        &:before {
+            background-color: rgba(0, 107, 182,0.75);
+        }
+    }
+    &-Thunder {
+        &:before {
+            background-color: rgba(0, 125, 195,0.75);
+        }
+    }
+    &-Magic {
+        &:before {
+            background-color: rgba(0, 125, 197,0.75);
+        }
+    }
+    &-76ers {
+        &:before {
+            background-color: rgba(0, 107, 182,0.75);
+        }
+    }
+    &-Suns {
+        &:before {
+            background-color: rgba(29, 17, 96,0.75);
+        }
+    }
+    &-Trail {
+        &:before {
+            background-color: rgba(224, 58, 62,0.75);
+        }
+    }
+    &-Kings {
+        &:before {
+            background-color: rgba(91,43,130,0.75);
+        }
+    }
+    &-Spurs {
+        &:before {
+            background-color: rgba(196, 206, 211,0.75);
+        }
+    }
+    &-Raptors {
+        &:before {
+            background-color: rgba(6, 25, 34,0.75);
+        }
+    }
+    &-Jazz {
+        &:before {
+            background-color: rgba(249, 160, 27,0.75);
+        }
+    }
+    &-Wizards {
+        &:before {
+            background-color: rgba(0,43,92,0.75);
+        }
+    }
+
+}

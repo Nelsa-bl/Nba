@@ -1,0 +1,237 @@
+.standings {
+    padding-left: 30px;
+    padding-right: 30px;
+    thead {
+        tr {
+            text-align: center;
+            border: none;
+            vertical-align: middle;
+
+            th {
+                font-weight: 100;
+                font-size: 12px;
+                color: #fff;
+                border: none;
+            }
+        }
+    }
+    tbody {
+        border-color: #fff;
+        border-top: 1px solid rgba(255,255,255,0.3) !important;
+        tr {
+            border: none;
+            background-color: rgba(255,255,255,0.5);
+            td {
+                text-align: center;
+                color: #000 !important;
+                vertical-align: middle;
+                border: none;
+                font-weight: 400;
+            }
+
+            .teamName {
+                text-align: left;
+                display: flex;
+
+                .team-logo {
+                    width: 40px;
+                    height: 40px;
+                    margin-right: 5px;
+                }
+
+                .teamNamePlacement {
+                    position: relative;
+                    top: 10px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }  
+    .hideField{
+        display: none;
+    }
+}
+
+.standings.east {
+
+    thead {
+        background-color: #0066b3;
+    }
+
+    .conference {
+        background-image: url(../images/east-conf.png);
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 25px;
+        display: block;
+        z-index: 99999999;
+        background-size: cover;
+        margin: auto;
+    }
+
+    tr:nth-child(-n+6) {
+        td {
+            .rank {
+                background-color: #0066b3 !important;
+                width: 28px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 14px;
+                padding-top: 2px;
+                color: #fff !important;
+            }
+        }
+    }
+
+    tr:nth-child(n+7) {
+        td {
+            .rank {
+                background-color: #003359;
+                width: 28px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 14px;
+                padding-top: 2px;
+                color: #fff !important;
+            }
+        }
+    }
+
+    tr:nth-child(n+11) {
+        td {
+            .rank {
+                background-color: rgba(0,0,0,0.2);
+                width: 28px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 14px;
+                padding-top: 2px;
+                color: #fff !important;
+            }
+        }
+    }
+   
+    
+}
+.standings.west {
+    
+    thead {
+        background-color: #c4161c;
+    }
+
+    .conference {
+        background-image: url(../images/west-conf.png);
+        background-repeat: no-repeat;
+        width: 25px;
+        height: 25px;
+        display: block;
+        z-index: 99999999;
+        background-size: cover;
+        margin: auto;
+    }
+
+    tr:nth-child(-n+6) {
+        td {
+            .rank {
+                background-color: #c4161c !important;
+                width: 28px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 14px;
+                padding-top: 2px;
+                color: #fff !important;
+            }
+        }
+    }
+
+    tr:nth-child(n+7) {
+        td {
+            .rank {
+                background-color: #620b0e;
+                width: 28px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 14px;
+                padding-top: 2px;
+                color: #fff !important;
+            }
+        }
+    }
+
+    tr:nth-child(n+11) {
+        td {
+            .rank {
+                background-color: rgba(0,0,0,0.2);
+                width: 28px;
+                height: 25px;
+                display: inline-block;
+                text-align: center;
+                border-radius: 5px;
+                font-size: 14px;
+                padding-top: 2px;
+                color: #fff !important;
+            }
+        }
+    }
+}
+
+.showAll {
+    width: 100%;
+    .hideField {
+        display: table-cell;
+    }
+    .standings {
+        margin-bottom: 40px;
+    }
+}
+
+.hideAll {
+    display: flex;
+    .hideField {
+        display: none;
+    }
+    .standings {
+        width: 50%;
+    }
+
+    .standings.east {
+        padding-right: 10px;
+    }
+
+    .standings.west {
+        padding-left: 10px;
+    }
+}
+
+.standingsDiv {
+    position: relative;
+
+    h2 {
+        color: #fff;
+        text-align: center;
+        /* margin-bottom: 20px; */
+        text-shadow: 1px 1px 6px #000;
+        margin-bottom: 40px;
+
+        button {
+            background-color: transparent;
+            border: none;
+            margin-left: 5px;
+
+            svg {
+                color: #fff;
+                text-shadow: 1px 1px 6px #000;  
+            }
+        }
+    }
+}
